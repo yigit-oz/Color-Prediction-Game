@@ -1,4 +1,8 @@
-var canvas1 = document.getElementById("canvas1"), canvas2 = document.getElementById("canvas2"), canvas3 = document.getElementById("canvas3"), canvas4 = document.getElementById("canvas4"), canvas5 = document.getElementById("canvas5"), canvas6 = document.getElementById("canvas6"), scoreTable = document.getElementById("scoreTable"), randomRGB, start, score = 0, count = 6, multiplier = 10, falseAnswers = 0, colors = [canvas1,canvas2,canvas3,canvas4,canvas5,canvas6];
+var canvas1 = document.getElementById("canvas1"), canvas2 = document.getElementById("canvas2"), 
+    canvas3 = document.getElementById("canvas3"), canvas4 = document.getElementById("canvas4"), 
+    canvas5 = document.getElementById("canvas5"), canvas6 = document.getElementById("canvas6"), 
+    scoreTable = document.getElementById("scoreTable"), randomRGB, start, score = 0, count = 6, multiplier = 10, falseAnswers = 0, 
+    colors = [canvas1,canvas2,canvas3,canvas4,canvas5,canvas6];
 function drawCanvas() {
   var randomCanvas = Math.floor(Math.random()*6);  
   for(i=0; i<colors.length; i++){
